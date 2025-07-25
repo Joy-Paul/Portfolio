@@ -1,33 +1,316 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
 
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
 <body>
-    <header>
-        <nav>
-            <h3 class="nav-title">J<span class="text-color">o</span>y P<span class="text-color">a</span>ul</h3>
-            <ul>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><button class="btn-primary">Hire Me</button></li>
-            </ul>
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">Joy Paul<span class="animate" style="--i:1;"></span></a>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="#certification">Certification</a>
+            <a href="#project">My Projects</a>
+            <a href="#photography">Photography</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
         </nav>
     </header>
-    <main>
-    </main>
-    <footer>
+    <!-- Home section design -->
+     <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Joy Paul</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>
+                    <span style="--i:4;" data-text="Cyber Security Enthusiast">Cyber Security Enthusiast</span>
+                    <span style="--i:3;" data-text="Photographer">Photographer</span>
+                    <span style="--i:2;" data-text="Frontend Developer">Frontend Developer</span>
+                    <span style="--i:1;" data-text="CTF Player">CTF Player</span>
+                </h3>
+                </div>
+                <p>A self-motivated, hardworking learner. Currently I am pursuing M.Tech 
+                in Computer Science and Engineering at Indian Institute of Technology (Indian School of Mines), Dhanbad,
+                Jharkhand, India. I am passionate about learning and exploring new technologies and tools.
+                I love to do photography and playing football, cricket or badminton in my free time.</p>
+                <span class="animate" style="--i:4;"></span>
+            </p>
+            <div class="btn-box">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#" class="btn">Lets Talk</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+            <div class="thm">
+                <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=805230" style='border:none; width:400px;'></iframe>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://x.com/kaushikpauljoy" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <!-- <a href="#"><i class='bx bxl-linkedin'></i></a> -->
+            <a href="https://linkedin.com/in/kaushikpauljoy" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+     </section>
 
-    </footer>
+     <!-- About Section Design -->
+      <section class="about" id="about">
+        <h2 class="heading"> About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <div class="about-img">
+            <img src="/New folder/about.jpg" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+        <div class="about-content">
+            <h3>Cybersecurity Enthusiast! || Frontend Developer || Photographer <span class="animate scroll" style="--i:3;"></span></h3>
+            <p>Hello! I’m a Computer Science and Engineering postgraduate student currently pursuing my M.Tech at Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, India. I completed my B.Tech in Computer Science and Engineering from Lovely Professional University (LPU) Phagwara, Punjab, India. Originally from Dhaka, Bangladesh, I’m passionate about cybersecurity and aim to pursue a Ph.D. in Cybersecurity, focusing on advanced research in digital security.
 
+            My core interests lie in <b>Web Security, Penetration Testing, Network defense, and Ethical Hacking</b>. I actively practice and enhance my skills through platforms like TryHackMe, Hack The Box, and Capture The Flag (CTF) competitions. These experiences have helped me build a strong foundation in identifying vulnerabilities, securing web applications, and simulating real-world attack scenarios.
+
+            Beyond my academic and technical pursuits, I’m also an amateur photographer, capturing moments that tell stories and perspectives from my travels. I find creativity and clarity through the lens, whether it's nature, architecture, or spontaneous street scenes.
+
+            In my free time, I enjoy staying active through sports such as cricket, football, and badminton. I also love to travel and explore new cultures, which fuels my curiosity and broadens my global outlook.
+
+            I’m a dedicated learner, team player, and aspiring cybersecurity researcher looking forward to contributing to secure, privacy-focused technological advancements. Whether it's solving security challenges, collaborating on research, or exploring new ideas—I’m always ready for the next challenge. I look forward to collaborating with like-minded professionals and contributing meaningfully to the field of cybersecurity.
+            <span class="animate scroll" style="--i:4;"></span>
+            </p>
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+      </section>
+
+      <!-- Education Section Design  -->
+      <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span>
+            <span class="animate scroll" style="--i:1;"></span>
+        </h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> Jan 2024 - Dec 2025</div>
+                            <h3>Indian Institute of Technology (ISM) Dhanbad, India</h3>
+                            <p>Master of Technology in Computer Science and Engineer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>  Aug 2018 - Oct 2022</div>
+                            <h3>Lovely Professional University Punjab, India</h3>
+                            <p>Bachelor of Technology in Computer Science and Engineer</p>
+                        </div>
+                    </div>
+            
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 207 - 2028</div>
+                            <h3>Sristy College of Tangail, Dhaka, Bangladesh</h3>
+                            <p>Higher Secondary Certificate</p>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+            <div class="education-column">
+                <h3 class="title">Experience<span class="animate scroll" style="--i:4;"></span></h3>
+                
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2028</div>
+                            <h3>Cyber Security and Digital Forensics Intern</h3>
+                            <p><i><B>Cyber Secure India</i></B> | 05 Apr 2025 – 29 Jun 2025</p>
+                            <p>Worked on real-world cybersecurity cases involving threat analysis, digital evidence collection, and incident response. Gained hands-on experience with penetration testing, network security tools, and forensic techniques used in identifying and mitigating cyber threats.</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2028</div>
+                            <h3>Cyber Security Intern</h3>
+                            <p><b><i>ShadowFox Security</i></b> | 1st Apr 2025 – 30th Apr 2025</p>
+                            <p>During my internship at ShadowFox, I worked closely with the cybersecurity team on vulnerability assessments, threat monitoring, and penetration testing projects. I gained hands-on experience with tools like Nmap, Burp Suite, and Wireshark, while also learning to analyze logs and identify potential security incidents. This role deepened my understanding of system hardening, security auditing, and real-world cyber threat defense</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2028</div>
+                            <h3>Cyber Security & Penetration Testing Intern</h3>
+                            <p><b><i>Hacktify Cyber Security</i></b> | Feb 2025 – Mar 2025</p>
+                            <p>As an intern at Hacktify, I was actively involved in penetration testing, bug hunting, and vulnerability analysis of web applications. I worked with tools like Burp Suite, Nmap, and OWASP ZAP to detect critical issues including XSS, SQL Injection, and Insecure Direct Object References (IDOR). I also followed OWASP Top 10 standards and participated in responsible disclosure practices. This internship enhanced my ability to think like an attacker and strengthened my skills in ethical hacking and secure coding awareness.</p>
+                        </div>
+                    </div>
+                        
+                    <span class="animate scroll" style="--i:5;"></span>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!-- Skills Section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My<span> Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Programming Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JS <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+            <div class="skills-column">
+                <h3 class="title">Cybersecurity Skills<span class="animate scroll" style="--i:4;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Concepts(Vulnerability Assessment, Penetration Testing, Network Security, OWASP Top 10 & Common Application Security Flaws)<span>75%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                        <div class="progress">
+                        <h3>Cloud Security (AWS Security, Azure Security, Identity and IAM) <span>60%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                        <div class="progress">
+                        <h3>Security Tools (Wireshark, Nmap, Metasploit, Burp Suite, John the Ripper etc) <span>70%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                        <div class="progress">
+                        <h3>Forensics & Malware(Volatility, Autopsy, FTK Imager, Ghidra) <span>50%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section Design -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:2;"></span>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Contact Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+                <span class="animate scroll" style="--i:4;"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+                <span class="animate scroll" style="--i:1;"></span>
+            </div>
+        </form>
+     </section>
+     <section class="certification" id="certification">
+  <h2 class="heading">Certification</h2>
+  <div class="cert-container">
+    <div class="cert-card">
+      <iframe src="images/cert1.pdf" alt="Certificate 1" class="cert-img"></iframe>
+      <a href="https://certificate-link1.com" target="_blank" class="cert-btn">Certificate Name 1</a>
+    </div>
+    <div class="cert-card">
+      <img src="images/cert2.jpeg" alt="Certificate 2" class="cert-img">
+      <a href="https://certificate-link2.com" target="_blank" class="cert-btn">Certificate Name 2</a>
+    </div>
+    <div class="cert-card">
+      <img src="images/cert3.png" alt="Certificate 3" class="cert-img">
+      <a href="https://certificate-link3.com" target="_blank" class="cert-btn">Certificate Name 3</a>
+    </div>
+    <div class="cert-card">
+      <img src="images/cert4.png" alt="Certificate 4" class="cert-img">
+      <a href="https://certificate-link4.com" target="_blank" class="cert-btn">Certificate Name 4</a>
+    </div>
+    <div class="cert-card">
+      <img src="images/cert5.png" alt="Certificate 5" class="cert-img">
+      <a href="https://certificate-link5.com" target="_blank" class="cert-btn">Certificate Name 5</a>
+    </div>
+    <div class="cert-card">
+      <img src="images/cert6.png" alt="Certificate 6" class="cert-img">
+      <a href="https://certificate-link6.com" target="_blank" class="cert-btn">Certificate Name 6</a>
+    </div>
+    <div class="cert-card">
+      <img src="images/cert7.png" alt="Certificate 7" class="cert-img">
+      <a href="https://certificate-link7.com" target="_blank" class="cert-btn">Certificate Name 7</a>
+    </div>
+    <div class="cert-card">
+      <img src="images/cert8.png" alt="Certificate 8" class="cert-img">
+      <a href="https://certificate-link8.com" target="_blank" class="cert-btn">Certificate Name 8</a>
+    </div>
+  </div>
+</section>
+
+
+     <!-- Footer Design -->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Joy Paul | All right reserved</p>
+            <span class="animate scroll" style="--i:1;"></span>  
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+      </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
